@@ -8,7 +8,7 @@ namespace ClassMetotDemo
         {
             Musteri musteri = new Musteri();
             musteri.Id = 1;
-            musteri.Ad = "Muratcannn";
+            musteri.Ad = "Muratcan";
             musteri.Soyad = "Tüfekçi";
             musteri.Eposta = "abcd@hotmail.com";
 
