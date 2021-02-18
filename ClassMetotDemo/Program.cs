@@ -8,7 +8,7 @@ namespace ClassMetotDemo
         {
             Musteri musteri = new Musteri();
             musteri.Id = 1;
-            musteri.Ad = "Muratcan";
+            musteri.Ad = "Muratcannn";
             musteri.Soyad = "Tüfekçi";
             musteri.Eposta = "abcd@hotmail.com";
 
@@ -18,13 +18,13 @@ namespace ClassMetotDemo
             musteri2.Soyad = "Duman";
             musteri2.Eposta = "abcde@hotmail.com";
 
-            Musteri[] musteriManager2 = new Musteri[] { musteri, musteri2 };
+            Musteri[] musteriListe = new Musteri[] { musteri, musteri2 };
             MusteriManager musteriManager = new MusteriManager();
             musteriManager.Ekle(musteri);
             musteriManager.Silme(musteri);
             musteriManager.Ekle(musteri2);
             musteriManager.Silme(musteri2);
-            musteriManager.Listeleme(musteriManager2);
+            musteriManager.Listeleme(musteriListe);
 
             Console.ReadKey();
         }
